@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 @Configuration
-public class MyDatasourceConfig {
+public class MyDatabaseConfig {
 
   @Bean
   public DriverManagerDataSource dataSource() {
